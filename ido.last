@@ -1,0 +1,52 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/var/home/tom/.emacs.d/" . "lisp/")
+ ("/var/home/tom/" . ".emacs.d/")
+ ("/home/tom/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/var/home/tom/"
+ "/var/home/tom/.emacs.d/lisp/"
+ "/var/home/tom/.emacs.d-old/"
+ "/var/home/tom/.emacs.d/"
+ "/home/tom/.emacs.d/"
+ "/home/tom/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "goat.lisp"
+ "writer.el"
+ "lmao.lisp"
+ ".emacs"
+ "writer-mode.el"
+ "old-emacs.el"
+ "old-emacs"
+ "ido.last"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/var/home/tom/" (24775 17495 599078 425000) "lmao.lisp" "goat.lisp" ".bash_history" ".slime-history.eld" ".slime/" "todo.org" "emacs.d.tar" "writer-mode.el" ".emacs.d/" ".emacs.d-old/" "old-emacs.el" "old-emacs" ".lmmsrc.xml" ".lesshst" ".rpmmacros" "Audiobooks/" "revelation-story-1" "leaf-wolf-story" ".vscode-oss/" "Godot/" "theme-generator/" "icons/" ".gitconfig" "story1" ".dotnet/" ".prboom-plus/" ".pki/" "Doom/" ".bashrc" "Notes/" ".emacs" ".ssh/" ".bash_profile" ".gnupg/" ".icons/" ".wget-hsts" ".var/" ".esd_auth" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".mozilla/" ".bash_logout" "../" "./")
+
+ ("/var/home/tom/.emacs.d/lisp/" (24764 10317 145566 198000) "writer.el" "../" "./")
+
+ ("/var/home/tom/.emacs.d/" (24775 17462 542144 693000) "ido.last" "bookmarks" "ido.last~" "init.el" "init.el~" "lisp/" "ac-comphist.dat" "thumbs/" "eshell/" "elpa/" "auto-save-list/" "../" "./")
+
+ ("/var/home/tom/.emacs.d-old/" (24764 3487 592241 309000) "ido.last" "init.el" "url/" "bookmarks" "init.el~" "session.104b1ec52383a923bf160549474954164900000017830096" "session.10548cf3fefe1299b0161118289830407500000023040085" "session.10bff28e72fba2085116131574608342600000022740080" "#ido.last#" "ido.last~" "session.1020c2ca0499caec05161808194887959900000167370097" "eshell/" "elpa/" "elegant-emacs/" "session.10e0b42cfc8bd9d3dd160382289055893700000016080087" "nano-emacs/" "ac-comphist.dat" "session.105f536ee9390ac304160278359580214300000016630085" "backups/" "places" "auto-save-list/" "../" "./")
+
+ ("/home/tom/.emacs.d/" (24764 9325 73352 76000) "ido.last" "ido.last~" "init.el" "init.el~" "lisp/" "ac-comphist.dat" "thumbs/" "eshell/" "elpa/" "auto-save-list/" "../" "./")
+
+ ("/home/tom/" (24764 8795 768061 309000) "writer-mode.el" ".bash_history" ".emacs.d/" ".emacs.d-old/" "old-emacs.el" "old-emacs" ".lmmsrc.xml" ".lesshst" ".rpmmacros" "Audiobooks/" "revelation-story-1" "leaf-wolf-story" ".vscode-oss/" "Godot/" "theme-generator/" "icons/" ".gitconfig" "story1" ".dotnet/" ".prboom-plus/" ".pki/" "Doom/" ".bashrc" "Notes/" ".emacs" ".ssh/" ".bash_profile" ".gnupg/" ".icons/" ".wget-hsts" ".var/" ".esd_auth" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".mozilla/" ".bash_logout" "../" "./")
+
+ ("/var/home/tom/.emacs.d/elpa/slime-20210512.1220/" (24764 8862 881844 567000) "slime.elc" "slime-tests.elc" "slime-autoloads.el" "swank-loader.lisp" "contrib/" "dir" "swank.lisp" "lib/" "swank.asd" "nregex.lisp" "start-swank.lisp" "slime-tests.el" "slime.info" "metering.lisp" "packages.lisp" "sbcl-pprint-patch.lisp" "slime.el" "xref.lisp" "swank/" "slime-pkg.el" "../" "./")
+
+ ("/home/" (24591 45334 0 0) "tom/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

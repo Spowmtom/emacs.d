@@ -1,0 +1,7 @@
+ls
+rm #	
+rm #*
+valac test.c 
+cp test.c test.vala
+valac test.c 
+valac test.vala

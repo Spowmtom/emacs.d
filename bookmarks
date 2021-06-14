@@ -1,0 +1,37 @@
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("hacking.org"
+ (filename . "~/Game/godot/Hacking/hacking.org")
+ (front-context-string . "* Ideas\n** Ways ")
+ (rear-context-string)
+ (position . 1))
+("todo.org"
+ (filename . "~/Game/godot/Hacking/todo.org")
+ (front-context-string . "* Licences [0/2]")
+ (rear-context-string)
+ (position . 1))
+("(eintr) Truth & Falsehood"
+ (front-context-string . "\n3.9 Truth and F")
+ (rear-context-string . " Writing Defuns\n")
+ (position . 146473)
+ (filename . "/usr/share/info/eintr")
+ (info-node . "Truth & Falsehood")
+ (handler . Info-bookmark-jump))
+(".emacs"
+ (filename . "~/.emacs")
+ (front-context-string . "(custom-set-vari")
+ (rear-context-string)
+ (position . 1))
+("scrapbook.org"
+ (filename . "~/Notes/projects/writing/scrapbook.org")
+ (front-context-string . "   - Anger issue")
+ (rear-context-string . "n insane markup\n")
+ (position . 720))
+("buy.org"
+ (filename . "~/Notes/job/buy.org")
+ (front-context-string)
+ (rear-context-string)
+ (position . 1))
+)
