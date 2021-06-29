@@ -2,36 +2,65 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/tom/Notes/projects/" . "writing/")
+ ("/home/tom/Notes/" . "projects/")
+ ("/home/" . "tom/")
+ ("/home/tom/Downloads/" . "readit (copy)/")
  ("/var/home/tom/.emacs.d/" . "lisp/")
  ("/var/home/tom/" . ".emacs.d/")
- ("/home/tom/" . ".emacs.d/")
+ ("/home/tom/" . "Notes/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/tom/Notes/projects/writing/"
+ "/home/tom/Documents/"
+ "/home/tom/"
+ "/home/tom/Downloads/readit (copy)/"
  "/var/home/tom/"
  "/var/home/tom/.emacs.d/lisp/"
  "/var/home/tom/.emacs.d-old/"
  "/var/home/tom/.emacs.d/"
  "/home/tom/.emacs.d/"
- "/home/tom/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "goat.lisp"
- "writer.el"
- "lmao.lisp"
+ "scrapbook.org"
+ "ardath.txt"
  ".emacs"
- "writer-mode.el"
- "old-emacs.el"
- "old-emacs"
- "ido.last"
+ "questions-about-html"
+ "index.html"
+ "poem"
+ "poem.tex"
+ "Todo-everyday.org"
+ "goat.lisp"
+ "goat-dev.lisp"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/var/home/tom/" (24775 17495 599078 425000) "lmao.lisp" "goat.lisp" ".bash_history" ".slime-history.eld" ".slime/" "todo.org" "emacs.d.tar" "writer-mode.el" ".emacs.d/" ".emacs.d-old/" "old-emacs.el" "old-emacs" ".lmmsrc.xml" ".lesshst" ".rpmmacros" "Audiobooks/" "revelation-story-1" "leaf-wolf-story" ".vscode-oss/" "Godot/" "theme-generator/" "icons/" ".gitconfig" "story1" ".dotnet/" ".prboom-plus/" ".pki/" "Doom/" ".bashrc" "Notes/" ".emacs" ".ssh/" ".bash_profile" ".gnupg/" ".icons/" ".wget-hsts" ".var/" ".esd_auth" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".mozilla/" ".bash_logout" "../" "./")
+ ("/usr/share/info/" (24795 3466 894136 962000) "dir" "info-stnd.info.gz" "nano.info.gz" "R-lang.info.gz" "R-ints.info.gz" "R-intro.info.gz" "R-exts.info.gz" "R-exts.info-3.gz" "R-exts.info-2.gz" "R-exts.info-1.gz" "R-data.info.gz" "R-admin.info.gz" "R-FAQ.info.gz" "asymptote.info.gz" "asy-faq.info.gz" "fontname.info.gz" "latex2e-fr.info.gz" "latex2e-es.info.gz" "latex2e.info.gz" "annobin.info.gz" "dvipng.info.gz" "latex2man.info.gz" "mf2pt1.info.gz" "texdraw.info.gz" "epspdf.info.gz" "eplain.info.gz" "tlbuild.info.gz" "dvips.info.gz" "web2c.info.gz" "tds.info.gz" "kpathsea.info.gz" "texinfo.info.gz" "texinfo.info-3.gz" "texinfo.info-2.gz" "texinfo.info-1.gz" "woman.info.gz" "wisent.info.gz" "widget.info.gz" "viper.info.gz" "vip.info.gz" "vhdl-mode.info.gz" "url.info.gz" "tramp.info.gz" "todo-mode.info.gz" "srecode.info.gz" "speedbar.info.gz" "smtpmail.info.gz" "sieve.info.gz" "ses.info.gz" "semantic.info.gz" "sc.info.gz" "sasl.info.gz" "remember.info.gz" "reftex.info.gz" "rcirc.info.gz" "pgg.info.gz" "pcl-cvs.info.gz" "org.info.gz" "octave-mode.info.gz" "nxml-mode.info.gz" "newsticker.info.gz" "mh-e.info.gz" "message.info.gz" "mairix-el.info.gz" "info.gz" "ido.info.gz" "idlwave.info.gz" "htmlfontify.info.gz" "gnus.info.gz" "forms.info.gz" "flymake.info.gz" "eww.info.gz" "eudc.info.gz" "eshell.info.gz" "ert.info.gz" "erc.info.gz" "epa.info.gz" "emacs.info.gz" "emacs-mime.info.gz" "emacs-gnutls.info.gz" "elisp.info.gz" "eintr.info.gz" "eieio.info.gz" "efaq.info.gz" "edt.info.gz" "ediff.info.gz" "ede.info.gz" "ebrowse.info.gz" "dired-x.info.gz" "dbus.info.gz" "cl.info.gz" "ccmode.info.gz" "calc.info.gz" "bovine.info.gz" "autotype.info.gz" "auth.info.gz" "gccint.info.gz" "gccinstall.info.gz" "gccgo.info.gz" "gcc.info.gz" "grub2.info.gz" "grub2-dev.info.gz" "mtools.info.gz" "libquadmath.info.gz" "which.info.gz" "coreutils.info.gz" "libc.info.gz" "libc.info-9.gz" "libc.info-8.gz" "libc.info-7.gz" "libc.info-6.gz" "libc.info-5.gz" "libc.info-4.gz" "libc.info-3.gz" "libc.info-2.gz" "libc.info-17.gz" "libc.info-16.gz" "libc.info-15.gz" "libc.info-14.gz" "libc.info-13.gz" "libc.info-12.gz" "libc.info-11.gz" "libc.info-10.gz" "libc.info-1.gz" "wget.info.gz" "libgomp.info.gz" "cppinternals.info.gz" "cpp.info.gz" "nettle.info.gz" "time.info.gz" "tar.info.gz" "tar.info-2.gz" "tar.info-1.gz" "source-highlight.info.gz" "source-highlight-lib.info.gz" "sed.info.gz" "rluserman.info.gz" "r5rs.info.gz" "r5rs-2.2.info.gz" "pinfo.info.gz" "pinentry.info.gz" "parted.info.gz" "make.info.gz" "make.info-2.gz" "make.info-1.gz" "liblouis.info.gz" "libcdio.info.gz" "ld.info.gz" "jwhois.info.gz" "history.info.gz" "gzip.info.gz" "guile.info.gz" "guile.info-9.gz" "guile.info-8.gz" "guile.info-7.gz" "guile.info-6.gz" "guile.info-5.gz" "guile.info-4.gz" "guile.info-3.gz" "guile.info-2.gz" "guile.info-10.gz" "guile.info-1.gz" "guile-2.2.info.gz" "guile-2.2.info-9.gz" "guile-2.2.info-8.gz" "guile-2.2.info-7.gz" "guile-2.2.info-6.gz" "guile-2.2.info-5.gz" "guile-2.2.info-4.gz" "guile-2.2.info-3.gz" "guile-2.2.info-2.gz" "guile-2.2.info-10.gz" "guile-2.2.info-1.gz" "grep.info.gz" "gprof.info.gz" "gnupg.info.gz" "gnupg.info-2.gz" "gnupg.info-1.gz" "gettext.info.gz" "gawkworkflow.info.gz" "gawkinet.info.gz" "gawk.info.gz" "find.info.gz" "find.info-2.gz" "find.info-1.gz" "find-maint.info.gz" "diffutils.info.gz" "dc.info.gz" "cpio.info.gz" "binutils.info.gz" "bfd.info.gz" "bc.info.gz" "bash.info.gz" "as.info.gz" "accounting.info.gz" "../" "./")
+
+ ("/home/tom/Notes/projects/writing/" (24783 61585 0 0) "scrapbook.org" "notes.org" "The Fantasy Fiction Formula - Notes.txt" "The Fantasy Fiction Formula - Notes.org" "yiff/" "dark-plague-story.md" "revelation/" "learning.org" "essay-guide.org" "characters/" "motivation-list.org" ".auctex-auto/" "markdown.md" "../" "./")
+
+ ("/home/tom/Notes/projects/" (24244 13372 0 0) "writing/" "game/" "../" "./")
+
+ ("/home/tom/.emacs.d/" (24795 3504 600893 970000) "ido.last" "bookmarks" "init.el" "snippets/" ".git/" "README.md" "lisp/" "ac-comphist.dat" "thumbs/" "eshell/" "elpa/" "auto-save-list/" "../" "./")
+
+ ("/home/tom/Documents/" (24795 1119 563187 487000) "ardath.txt" "poem.odt" "ChatExport_2021-06-16.tar.gz" "Banque Nationale | Services bancaires | Bilan.pdf" "join gate circle height hood accident bachelor reform velvet fat banana reveal" "MuseScore3/" "trigonometry.lisp" "identity/" "impots/" "scripts/" "Books/" "job/" "porn/" "audiobooks/" "export.tar.gz" "poem.pdf" "misc/" "html.tar.gz" "../" "./")
+
+ ("/home/tom/" (24794 65042 557454 728000) ".bash_history" ".swp" ".lesshst" "questions-about-html" ".shared-ringdb/" "Monero/" ".bitmonero/" "poem.pdf" "poem.aux" "poem.log" ".texlive2020/" "poem.tex" "Todo-everyday.org" "poem" "Git/" "Lisp/" ".emacs" ".bashrc" ".slime-history.eld" ".slime/" ".emacs.d/" ".lmmsrc.xml" ".rpmmacros" "Audiobooks/" ".vscode-oss/" "Godot/" ".gitconfig" ".dotnet/" ".prboom-plus/" ".pki/" "Doom/" "Notes/" ".ssh/" ".bash_profile" ".gnupg/" ".icons/" ".wget-hsts" ".var/" ".esd_auth" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".mozilla/" ".bash_logout" "../" "./")
+
+ ("/home/" (24787 53385 81848 528000) "tom/" "tom3/" "../" "./")
+
+ ("/home/tom/Downloads/readit (copy)/" (24792 62760 663832 222000) "index.html" "head.html" "prepros-6.config" "scss/" "readme.txt" "main.html" "js/" "images/" "fonts/" "css/" "contact.html" "blog.html" "blog-single.html" "about.html" ".DS_Store" "../" "./")
+
+ ("/home/tom/Downloads/" (24792 62253 378962 708000) "readit (copy)/" "readit/" "unapp-master/" "LICENSE" "monero-gui-linux-x64-v0.17.2.2/" "Appointment Ticket.pdf" "monero-gui-linux-x64-v0.17.2.2.tar.bz2" "10 Day Challenge Files.zip" "bip39-standalone.html" "Peaches En Regalia Tab by Frank Zappatabs @ Ultimate Guitar Archive.pdf" "36gahrwut2671.mp4" "torrent/" "8iua8mzz8y441.mp4" "Garfield.mid" "Scooby_Doo.mid" "Frank_Zappa_-_Peaches_En_Regalia.mid" "Soviet_National_Anthem_USSR.mid" "The Fantasy Fiction Formula - Notes.txt" "186183520_1191182451303011_4603832433227482903_n.jpg" "slava.mp4" "6bin9z7l5c071.mp4" "Tricaru Defense Calculator v1.3.exe" "external-content.duckduckgo.com.jpg" "4f5e010b1cc485156c466ed3a8c2593a.gif" "13f271e5c3d997df7035883c96120c82.webm" "lol.swf" "12321.jpg" "rpmfusion-free-release-34.noarch.rpm" "CleanCode.pdf" "Head_First_Design_Patterns.7z" "Head_First_Design_Patterns.pdf" "Raid Space War 2.wad" "whojnZb.mp4" "yfgnb44qz4v61.mp4" "9pebgvaiyyu61.mp4" "dcae3329310e0d4ab3cad78a9b8b10e5.swf" "Telegram Desktop/" "bunnystickers.zip" "OS/" "CONSULTATION.pdf" "amputated/" "edited/" "UNIX and Linux System Administration Handbook (5th Ed)/" "IMG_20210306_170714.jpg" "readit.zip" "goatstickers.zip" "DovesType-Regular.otf" "trigonometry.lisp" "Attwood-Tony-The-Complete-Guide-to-Aspergers-Syndrome.pdf" "azazel/" "vyrnrabbitchibiheadshot.png" "plan.pdf" "Danganronpa-Amputated-0.4-pc2/" "Calendrier-des-collectes-2020-secteur-c.pdf" "../" "./")
+
+ ("/home/tom/Notes/" (24787 57162 498474 860000) "story1" "revelation-story-1" "poem.txt" "leaf-wolf-story" "looser-dad.txt" "projects/" "myself/" "moowool-sticker-ideas" "magasin/" "job/" "declaration" "figure-de-style.txt" "roleplay.txt" "confirmation-code-enquete-covid19" "love.org" "blood.md" "things-to-watch.org" "to-study-for-surrealist-story.org" "assurance-emploi-reguliere.org" "../" "./")
+
+ ("/var/home/tom/" (24782 33954 331308 231000) ".bashrc" "lsd-0.20.1-1.fc34.x86_64.rpm" ".lesshst" ".bash_history" "goat.lisp" "goat-dev.lisp" "lists.txt" ".slime-history.eld" ".slime/" "writer-mode.el" ".emacs.d/" ".lmmsrc.xml" ".rpmmacros" "Audiobooks/" "revelation-story-1" "leaf-wolf-story" ".vscode-oss/" "Godot/" "theme-generator/" ".gitconfig" "story1" ".dotnet/" ".prboom-plus/" ".pki/" "Doom/" "Notes/" ".emacs" ".ssh/" ".bash_profile" ".gnupg/" ".icons/" ".wget-hsts" ".var/" ".esd_auth" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".mozilla/" ".bash_logout" "../" "./")
 
  ("/var/home/tom/.emacs.d/lisp/" (24764 10317 145566 198000) "writer.el" "../" "./")
 
@@ -39,13 +68,7 @@
 
  ("/var/home/tom/.emacs.d-old/" (24764 3487 592241 309000) "ido.last" "init.el" "url/" "bookmarks" "init.el~" "session.104b1ec52383a923bf160549474954164900000017830096" "session.10548cf3fefe1299b0161118289830407500000023040085" "session.10bff28e72fba2085116131574608342600000022740080" "#ido.last#" "ido.last~" "session.1020c2ca0499caec05161808194887959900000167370097" "eshell/" "elpa/" "elegant-emacs/" "session.10e0b42cfc8bd9d3dd160382289055893700000016080087" "nano-emacs/" "ac-comphist.dat" "session.105f536ee9390ac304160278359580214300000016630085" "backups/" "places" "auto-save-list/" "../" "./")
 
- ("/home/tom/.emacs.d/" (24764 9325 73352 76000) "ido.last" "ido.last~" "init.el" "init.el~" "lisp/" "ac-comphist.dat" "thumbs/" "eshell/" "elpa/" "auto-save-list/" "../" "./")
-
- ("/home/tom/" (24764 8795 768061 309000) "writer-mode.el" ".bash_history" ".emacs.d/" ".emacs.d-old/" "old-emacs.el" "old-emacs" ".lmmsrc.xml" ".lesshst" ".rpmmacros" "Audiobooks/" "revelation-story-1" "leaf-wolf-story" ".vscode-oss/" "Godot/" "theme-generator/" "icons/" ".gitconfig" "story1" ".dotnet/" ".prboom-plus/" ".pki/" "Doom/" ".bashrc" "Notes/" ".emacs" ".ssh/" ".bash_profile" ".gnupg/" ".icons/" ".wget-hsts" ".var/" ".esd_auth" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".mozilla/" ".bash_logout" "../" "./")
-
  ("/var/home/tom/.emacs.d/elpa/slime-20210512.1220/" (24764 8862 881844 567000) "slime.elc" "slime-tests.elc" "slime-autoloads.el" "swank-loader.lisp" "contrib/" "dir" "swank.lisp" "lib/" "swank.asd" "nregex.lisp" "start-swank.lisp" "slime-tests.el" "slime.info" "metering.lisp" "packages.lisp" "sbcl-pprint-patch.lisp" "slime.el" "xref.lisp" "swank/" "slime-pkg.el" "../" "./")
-
- ("/home/" (24591 45334 0 0) "tom/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

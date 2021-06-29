@@ -5,3 +5,39 @@ valac test.c
 cp test.c test.vala
 valac test.c 
 valac test.vala
+toolbox enter
+toolbox --version
+toolbox create
+sudo dnf install toolbox
+sudo dnf remove toolbox
+sudo dnf install toolbox
+toolbox create
+sudo dnf install podman
+podman --help
+podman -v
+ls ~/.bashrc
+find ~/ -iname "*toolbox*"
+find ~/ -iname "*toolbox*" 2> /dev/null
+ls
+ls
+ls
+rm -rf theme-generator/
+nano
+ls
+rm poem.aux poem.dvi poem.log
+cat poem
+pdflatex poem.tex 
+ls
+pdflatex poem.tex 
+pdflatex poem.tex 
+pdflatex poem.tex 
+pdflatex poem.tex 
+pdflatex poem.tex 
+pdflatex poem.tex 
+pdflatex poem.tex 
+pdflatex poem.tex 
+pdflatex poem.tex 
+pdflatex poem.tex 
+pdflatex poem.tex 
+pdflatex poem.tex 
+pdflatex poem.tex 
