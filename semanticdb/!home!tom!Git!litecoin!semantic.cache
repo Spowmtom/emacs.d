@@ -1,0 +1,130 @@
+;; Object semanticdb-project-database-file-12baab8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-12baab8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-12baaf2"
+      :major-mode c-mode
+      :tags 
+        '( ("stdlib.h" include (:system-flag t) nil [60 79])
+            ("stdio.h" include (:system-flag t) nil [80 98])
+            ("stdbool.h" include (:system-flag t) nil [99 119])
+            ("inttypes.h" include (:system-flag t) nil [120 141])
+            ("ctype.h" include (:system-flag t) nil [142 160])
+            ("string.h" include (:system-flag t) nil [161 180])
+            ("time.h" include (:system-flag t) nil [181 198])
+            ("openssl/sha.h" include (:system-flag t) nil [199 223])
+            ("COIN" variable
+               (:constant-flag t
+                :default-value "100000000"
+                :type ("uint64_t" type (:type "class") nil nil))
+                nil [254 286])
+            ("CENT" variable
+               (:constant-flag t
+                :default-value "1000000"
+                :type ("uint64_t" type (:type "class") nil nil))
+                nil [287 317])
+            ("OP_CHECKSIG" variable
+               (:default-value "172"
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [319 346])
+            ("generateBlock" variable
+               (:default-value "false"
+                :type "bool")
+                nil [376 403])
+            ("startNonce" variable
+               (:default-value "0"
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [404 428])
+            ("unixtime" variable
+               (:default-value "0"
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [429 451])
+            ("Transaction" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("merkleHash" variable
+                             (:dereference 1
+                              :type ("uint8_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [489 512])
+                          ("serializedData" variable
+                             (:pointer 1
+                              :type ("uint8_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [555 579])
+                          ("version" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [601 618])
+                          ("numInputs" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [635 653])
+                          ("prevOutput" variable
+                             (:dereference 1
+                              :type ("uint8_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [684 707])
+                          ("prevoutIndex" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [709 731])
+                          ("scriptSig" variable
+                             (:pointer 1
+                              :type ("uint8_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [733 752])
+                          ("sequence" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [754 772])
+                          ("numOutputs" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [790 809])
+                          ("outValue" variable (:type ("uint64_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [841 859])
+                          ("pubkeyScript" variable
+                             (:pointer 1
+                              :type ("uint8_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [861 883])
+                          ("locktime" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [900 918]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [453 933])
+            ("byteswap" function
+               (:arguments 
+                  ( ("buf" variable
+                       (:pointer 1
+                        :type ("uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1028 1041])
+                    ("length" variable (:type "int") (reparse-symbol arg-sub-list) [1042 1053]))                  
+                :type "void")
+                nil [1014 1202])
+            ("bin2hex" function
+               (:pointer 1
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "unsigned char")
+                        (reparse-symbol arg-sub-list) [1272 1295])
+                    ("len" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1296 1307]))                  
+                :type "char")
+                nil [1258 1480])
+            ("hex2bin" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type "unsigned char")
+                        (reparse-symbol arg-sub-list) [1497 1514])
+                    ("hexstr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1515 1534])
+                    ("len" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1535 1546]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [1482 1959])
+            ("InitTransaction" function
+               (:pointer 1
+                :type ("Transaction" type (:type "class") nil nil))
+                nil [1961 2540])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2551 2560])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2561 2574]))                  
+                :type "int")
+                nil [2542 10258]))          
+      :file "Genesis.c"
+      :pointmax 10259
+      :unmatched-syntax nil))
+  :file "!home!tom!Git!litecoin!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

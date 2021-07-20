@@ -191,10 +191,4 @@ ARG defaults to 1"
 ;; Enables features for SLIME
 (slime-setup '(slime-fancy slime-quicklisp slime-asdf))
 
-(do ((foo 1 (+ 1 foo))
-     (bar 2 (- 1 bar)))
-    ((> foo 20) bar))
-
-
-
 ;;; init.el ends here
