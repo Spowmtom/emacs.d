@@ -59,3 +59,9 @@ ls
 evince poem.pdf.asc 
 cat poem.pdf.asc 
 ls
+ssh-copy-id 
+ssh-keyscan 
+cat ~/.ssh/id_rsa.pub
+git add *
+git status
+git commit

@@ -72,7 +72,7 @@
    '(flyspell-prog-mode flymake-mode yas-minor-mode paredit-everywhere-mode))
  '(rcirc-server-alist '(("irc.libera.chat" :nick "spowmtom" :channels nil)))
  '(scroll-bar-mode nil)
- '(semantic-mode t)
+ '(semantic-mode nil)
  '(sentence-end "\\. +")
  '(size-indication-mode t)
  '(sml/line-number-format "%3l")
