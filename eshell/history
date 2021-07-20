@@ -41,3 +41,13 @@ pdflatex poem.tex
 pdflatex poem.tex 
 pdflatex poem.tex 
 pdflatex poem.tex 
+cd ../cmatrix
+ls
+sha256sum cmatrix.zip
+sha256sum ~/Downloads/mg-3.4.tar.gz
+cd ../mg
+ls
+ls mg-3.4
+find ./ -iname "*gruvbox*"
+cat *
+cat * | wc -l

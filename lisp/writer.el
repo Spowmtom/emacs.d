@@ -46,7 +46,8 @@
   "Major mode for fiction and non-fiction writing.
 Built on top on text-mode, this mode will autocorrect and focus on paragraphs."
   (flyspell-mode)
-  (focus-mode))
+  (focus-mode)
+  (darkroom-mode))
 
 (provide 'writer)
 

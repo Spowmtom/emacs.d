@@ -2,55 +2,94 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/tom/.config/" . "monero-project/")
+ ("/home/tom/.emacs.d/elpa/" . "gruvbox-theme-20210105.1136/")
+ ("/home/tom/.emacs.d/" . "lisp/")
  ("/home/tom/Notes/projects/" . "writing/")
  ("/home/tom/Notes/" . "projects/")
  ("/home/" . "tom/")
  ("/home/tom/Downloads/" . "readit (copy)/")
  ("/var/home/tom/.emacs.d/" . "lisp/")
  ("/var/home/tom/" . ".emacs.d/")
- ("/home/tom/" . "Notes/")
+ ("/home/tom/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/tom/Notes/projects/writing/"
- "/home/tom/Documents/"
  "/home/tom/"
+ "/home/tom/.emacs.d/lisp/"
+ "/home/tom/.emacs.d/"
+ "/home/tom/Lisp/"
+ "/home/tom/Notes/projects/writing/"
+ "/home/tom/Templates/"
+ "/home/tom/.config/monero-project/"
+ "/home/tom/.emacs.d/elpa/gruvbox-theme-20210105.1136/"
+ "/home/tom/.emacs.d/elpa/doom-themes-20210625.1302/"
+ "/home/tom/Documents/"
  "/home/tom/Downloads/readit (copy)/"
  "/var/home/tom/"
  "/var/home/tom/.emacs.d/lisp/"
  "/var/home/tom/.emacs.d-old/"
  "/var/home/tom/.emacs.d/"
- "/home/tom/.emacs.d/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "scrapbook.org"
- "ardath.txt"
  ".emacs"
- "questions-about-html"
- "index.html"
- "poem"
- "poem.tex"
- "Todo-everyday.org"
- "goat.lisp"
- "goat-dev.lisp"
+ "writer.el"
+ "test.cpp"
+ "test.lisp"
+ "file.fasl"
+ "The Fantasy Fiction Formula - Notes.org"
+ "source.java"
+ "template.c"
+ "monero-core.conf"
+ "gruvbox.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/tom/" (24821 38085 327472 265000) ".bash_history" ".viminfo" ".swo" "test.cpp" ".lesshst" ".sbclrc" "quicklisp/" "quicklisp.lisp" ".zoom/" ".wine/" ".gnome/" ".joe_state" ".asy/" "test/" ".audacity-data/" ".mozilla-backup/" ".bashrc" ".sh_history" ".swp" ".shared-ringdb/" "Monero/" ".bitmonero/" ".texlive2020/" "Git/" "Lisp/" ".emacs" ".slime-history.eld" ".slime/" ".emacs.d/" ".lmmsrc.xml" ".rpmmacros" ".vscode-oss/" "Godot/" ".gitconfig" ".dotnet/" ".prboom-plus/" ".pki/" "Doom/" "Notes/" ".ssh/" ".bash_profile" ".gnupg/" ".icons/" ".wget-hsts" ".var/" ".esd_auth" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".mozilla/" ".bash_logout" "../" "./")
+
+ ("/home/tom/.emacs.d/lisp/" (24816 30735 457208 501000) "bloodsap.el" "writer.el" "../" "./")
+
+ ("/home/tom/.emacs.d/" (24821 1356 199820 812000) "init.el" "ido.last" "semanticdb/" "bookmarks" "url/" "eln-cache/" "1" "foo" "snippets/" ".git/" "README.md" "lisp/" "ac-comphist.dat" "thumbs/" "eshell/" "elpa/" "auto-save-list/" "../" "./")
+
+ ("/home/tom/Lisp/" (24820 3196 622879 496000) "scripts/" "../" "./")
+
+ ("/home/tom/quicklisp/" (24820 3557 488572 558000) "local-projects/" "dists/" "client-info.sexp" "asdf.lisp" "setup.lisp" "quicklisp/" "tmp/" "../" "./")
+
+ ("/usr/local/share/" (24812 61266 953558 661000) "emacs/" "icons/" "metainfo/" "man/" "info/" "applications/" "../" "./")
+
+ ("/usr/local/share/info/" (24813 11288 638710 847000) "dir" "woman.info.gz" "wisent.info.gz" "widget.info.gz" "viper.info.gz" "vip.info.gz" "vhdl-mode.info.gz" "url.info.gz" "tramp.info.gz" "todo-mode.info.gz" "srecode.info.gz" "speedbar.info.gz" "smtpmail.info.gz" "sieve.info.gz" "ses.info.gz" "semantic.info.gz" "sc.info.gz" "sasl.info.gz" "reftex.info.gz" "remember.info.gz" "rcirc.info.gz" "pgg.info.gz" "pcl-cvs.info.gz" "org.info.gz" "octave-mode.info.gz" "nxml-mode.info.gz" "newsticker.info.gz" "modus-themes.info.gz" "mh-e.info.gz" "message.info.gz" "mairix-el.info.gz" "info.info.gz" "ido.info.gz" "idlwave.info.gz" "htmlfontify.info.gz" "emacs-gnutls.info.gz" "gnus.info.gz" "forms.info.gz" "flymake.info.gz" "eww.info.gz" "efaq.info.gz" "eudc.info.gz" "eshell.info.gz" "ert.info.gz" "erc.info.gz" "epa.info.gz" "emacs-mime.info.gz" "eieio.info.gz" "edt.info.gz" "ediff.info.gz" "ede.info.gz" "ebrowse.info.gz" "dired-x.info.gz" "dbus.info.gz" "cl.info.gz" "ccmode.info.gz" "calc.info.gz" "bovine.info.gz" "autotype.info.gz" "auth.info.gz" "elisp.info.gz" "eintr.info.gz" "emacs.info.gz" "../" "./")
+
+ ("/home/tom/Git/" (24813 11489 905701 979000) "emacs/" "../" "./")
+
+ ("/home/tom/Git/emacs/" (24816 30108 231465 109000) "Makefile" "native-lisp/" "info/" "config.status" "config.log" "configure" "autom4te.cache/" "aclocal.m4" "test/" "src/" "oldXMenu/" "nt/" "nextstep/" "msdos/" "modules/" "make-dist" "m4/" "lwlib/" "lisp/" "lib/" "lib-src/" "leim/" "etc/" "doc/" "configure.ac" "config.bat" "build-aux/" "autogen.sh" "admin/" "README" "Makefile.in" "INSTALL.REPO" "INSTALL" "GNUmakefile" "ChangeLog.3" "ChangeLog.2" "ChangeLog.1" "COPYING" "CONTRIBUTE" "BUGS" ".gitlab-ci.yml" ".gitignore" ".gitattributes" ".dir-locals.el" ".clang-format" ".git/" "../" "./")
+
+ ("/home/tom/Notes/projects/writing/" (24805 1317 16419 108000) ".#The Fantasy Fiction Formula - Notes.org" "The Fantasy Fiction Formula - Notes.org" "The Fantasy Fiction Formula - Notes.pdf" "The Fantasy Fiction Formula - Notes.tex" "scrapbook.org" "notes.org" "The Fantasy Fiction Formula - Notes.txt" "yiff/" "dark-plague-story.md" "revelation/" "learning.org" "essay-guide.org" "characters/" "motivation-list.org" ".auctex-auto/" "markdown.md" "../" "./")
+
+ ("/home/tom/Templates/" (24804 43511 946364 443000) "../" "./")
+
+ ("/home/tom/Documents/" (24804 42902 650994 169000) "Calendrier-des-collectes-2020-secteur-c.pdf" "fonts/" "poem.odt" "ChatExport_2021-06-16.tar.gz" "Banque Nationale | Services bancaires | Bilan.pdf" "join gate circle height hood accident bachelor reform velvet fat banana reveal" "MuseScore3/" "trigonometry.lisp" "identity/" "impots/" "scripts/" "Books/" "job/" "audiobooks/" "export.tar.gz" "poem.pdf" "misc/" "html.tar.gz" "../" "./")
+
+ ("/home/tom/.config/monero-project/" (24804 34350 935276 999000) "monero-core.conf" "../" "./")
+
+ ("/home/tom/.config/" (24804 32125 899861 472000) "mimeapps.list" "deluge/" "QtProject.conf" "Unknown Organization/" "mc/" "yelp/" "eog/" "totem/" "monero-project/" "toolbox/" "TUG/" "libreoffice/" "evince/" "libvirt/" "gedit/" "dleyna-renderer-service.conf" "gnome-boxes/" "abrt/" "lsd/" "cni/" "tox/" "procps/" "gzdoom/" "gnome-control-center/" "pipewire/" "glib-2.0/" "neofetch/" "menus/" "vmpk.sourceforge.net/" "MuseScore/" "background" "autostart/" "gtk-4.0/" ".cache/" "enchant/" "gnome-session/" "nautilus/" "gtk-3.0/" "evolution/" "ibus/" "user-dirs.locale" "user-dirs.dirs" "pulse/" "goa-1.0/" "dconf/" "gnome-initial-setup-done" "../" "./")
+
+ ("/home/tom/ProjectPO1/" (24797 52386 0 0) "test/" "src/" "nbproject/" "manifest.mf" "build.xml" "build/" "../" "./")
+
+ ("/home/tom/.emacs.d/elpa/gruvbox-theme-20210105.1136/" (24763 53106 0 0) "gruvbox.elc" "gruvbox-theme.elc" "gruvbox-light-soft-theme.elc" "gruvbox-light-medium-theme.elc" "gruvbox-light-hard-theme.elc" "gruvbox-dark-soft-theme.elc" "gruvbox-dark-medium-theme.elc" "gruvbox-dark-hard-theme.elc" "gruvbox-theme-autoloads.el" "gruvbox-dark-medium-theme.el" "gruvbox-theme-pkg.el" "gruvbox-dark-hard-theme.el" "gruvbox.el" "gruvbox-theme.el" "gruvbox-light-soft-theme.el" "gruvbox-light-medium-theme.el" "gruvbox-dark-soft-theme.el" "gruvbox-light-hard-theme.el" "../" "./")
+
+ ("/home/tom/.emacs.d/elpa/doom-themes-20210625.1302/" (24793 545 879604 409000) "doom-themes.elc" "doom-themes-ext-visual-bell.elc" "doom-themes-ext-org.elc" "doom-themes-base.elc" "doom-themes-autoloads.el" "doom-snazzy-theme.el" "doom-dark+-theme.el" "doom-outrun-electric-theme.el" "doom-henna-theme.el" "doom-badger-theme.el" "doom-horizon-theme.el" "doom-xcode-theme.el" "doom-homage-white-theme.el" "doom-spacegrey-theme.el" "doom-dracula-theme.el" "doom-fairy-floss-theme.el" "doom-laserwave-theme.el" "doom-monokai-ristretto-theme.el" "doom-themes-ext-org.el" "doom-opera-light-theme.el" "doom-nord-theme.el" "doom-opera-theme.el" "doom-tomorrow-day-theme.el" "doom-homage-black-theme.el" "doom-sourcerer-theme.el" "doom-1337-theme.el" "doom-nova-theme.el" "doom-themes-ext-neotree.el" "doom-manegarm-theme.el" "doom-wilmersdorf-theme.el" "doom-moonlight-theme.el" "doom-themes.el" "doom-city-lights-theme.el" "doom-molokai-theme.el" "doom-gruvbox-light-theme.el" "doom-peacock-theme.el" "doom-ephemeral-theme.el" "doom-material-theme.el" "doom-themes-base.el" "doom-themes-pkg.el" "doom-solarized-light-theme.el" "doom-ayu-light-theme.el" "doom-old-hope-theme.el" "doom-acario-light-theme.el" "doom-rouge-theme.el" "doom-themes-ext-treemacs.el" "doom-vibrant-theme.el" "doom-zenburn-theme.el" "doom-solarized-dark-high-contrast-theme.el" "doom-gruvbox-theme.el" "doom-plain-theme.el" "doom-monokai-spectrum-theme.el" "doom-ayu-mirage-theme.el" "doom-one-light-theme.el" "doom-themes-ext-visual-bell.el" "doom-monokai-machine-theme.el" "doom-monokai-classic-theme.el" "doom-one-theme.el" "doom-nord-light-theme.el" "doom-shades-of-purple-theme.el" "doom-challenger-deep-theme.el" "doom-oceanic-next-theme.el" "doom-monokai-octagon-theme.el" "doom-ir-black-theme.el" "doom-palenight-theme.el" "doom-acario-dark-theme.el" "doom-miramare-theme.el" "doom-Iosvkem-theme.el" "doom-solarized-dark-theme.el" "doom-plain-dark-theme.el" "doom-tomorrow-night-theme.el" "doom-flatwhite-theme.el" "doom-monokai-pro-theme.el" "../" "./")
+
+ ("/home/tom/.emacs.d/elpa/" (24793 545 57609 348000) "doom-themes-20210625.1302/" "doom-modeline-20210627.1731/" "all-the-icons-20210603.1604/" "shrink-path-20190208.1335/" "f-20210624.1103/" "s-20210616.619/" "yasnippet-0.14.0.signed" "yasnippet-0.14.0/" "markdown-mode-20210530.1825/" "auto-complete-20201213.1255/" "org-bullets-20200317.1740/" "slime-20210512.1220/" "macrostep-20161120.2106/" "gruvbox-theme-20210105.1136/" "autothemer-20180920.923/" "dash-20210602.1928/" "rich-minority-20190419.1136/" "info-colors-20200125.1447/" "popup-20210317.138/" "helm-core-20210525.2002/" "async-20210501.1527/" "focus-20191209.2210/" "flymake-vala-20150326.531/" "flymake-easy-20140818.755/" "vala-mode-20201218.2109/" "csharp-mode-20210328.2004/" "tree-sitter-indent-20210322.2033/" "tree-sitter-langs-20210314.1704/" "tree-sitter-20210328.434/" "tsc-20210320.1052/" "archives/" "gnupg/" "../" "./")
+
+ ("elpa/doom-themes-20210625.1302/" (24793 545 879604 409000) "doom-themes.elc" "doom-themes-ext-visual-bell.elc" "doom-themes-ext-org.elc" "doom-themes-base.elc" "doom-themes-autoloads.el" "doom-snazzy-theme.el" "doom-dark+-theme.el" "doom-outrun-electric-theme.el" "doom-henna-theme.el" "doom-badger-theme.el" "doom-horizon-theme.el" "doom-xcode-theme.el" "doom-homage-white-theme.el" "doom-spacegrey-theme.el" "doom-dracula-theme.el" "doom-fairy-floss-theme.el" "doom-laserwave-theme.el" "doom-monokai-ristretto-theme.el" "doom-themes-ext-org.el" "doom-opera-light-theme.el" "doom-nord-theme.el" "doom-opera-theme.el" "doom-tomorrow-day-theme.el" "doom-homage-black-theme.el" "doom-sourcerer-theme.el" "doom-1337-theme.el" "doom-nova-theme.el" "doom-themes-ext-neotree.el" "doom-manegarm-theme.el" "doom-wilmersdorf-theme.el" "doom-moonlight-theme.el" "doom-themes.el" "doom-city-lights-theme.el" "doom-molokai-theme.el" "doom-gruvbox-light-theme.el" "doom-peacock-theme.el" "doom-ephemeral-theme.el" "doom-material-theme.el" "doom-themes-base.el" "doom-themes-pkg.el" "doom-solarized-light-theme.el" "doom-ayu-light-theme.el" "doom-old-hope-theme.el" "doom-acario-light-theme.el" "doom-rouge-theme.el" "doom-themes-ext-treemacs.el" "doom-vibrant-theme.el" "doom-zenburn-theme.el" "doom-solarized-dark-high-contrast-theme.el" "doom-gruvbox-theme.el" "doom-plain-theme.el" "doom-monokai-spectrum-theme.el" "doom-ayu-mirage-theme.el" "doom-one-light-theme.el" "doom-themes-ext-visual-bell.el" "doom-monokai-machine-theme.el" "doom-monokai-classic-theme.el" "doom-one-theme.el" "doom-nord-light-theme.el" "doom-shades-of-purple-theme.el" "doom-challenger-deep-theme.el" "doom-oceanic-next-theme.el" "doom-monokai-octagon-theme.el" "doom-ir-black-theme.el" "doom-palenight-theme.el" "doom-acario-dark-theme.el" "doom-miramare-theme.el" "doom-Iosvkem-theme.el" "doom-solarized-dark-theme.el" "doom-plain-dark-theme.el" "doom-tomorrow-night-theme.el" "doom-flatwhite-theme.el" "doom-monokai-pro-theme.el" "../" "./")
+
  ("/usr/share/info/" (24795 3466 894136 962000) "dir" "info-stnd.info.gz" "nano.info.gz" "R-lang.info.gz" "R-ints.info.gz" "R-intro.info.gz" "R-exts.info.gz" "R-exts.info-3.gz" "R-exts.info-2.gz" "R-exts.info-1.gz" "R-data.info.gz" "R-admin.info.gz" "R-FAQ.info.gz" "asymptote.info.gz" "asy-faq.info.gz" "fontname.info.gz" "latex2e-fr.info.gz" "latex2e-es.info.gz" "latex2e.info.gz" "annobin.info.gz" "dvipng.info.gz" "latex2man.info.gz" "mf2pt1.info.gz" "texdraw.info.gz" "epspdf.info.gz" "eplain.info.gz" "tlbuild.info.gz" "dvips.info.gz" "web2c.info.gz" "tds.info.gz" "kpathsea.info.gz" "texinfo.info.gz" "texinfo.info-3.gz" "texinfo.info-2.gz" "texinfo.info-1.gz" "woman.info.gz" "wisent.info.gz" "widget.info.gz" "viper.info.gz" "vip.info.gz" "vhdl-mode.info.gz" "url.info.gz" "tramp.info.gz" "todo-mode.info.gz" "srecode.info.gz" "speedbar.info.gz" "smtpmail.info.gz" "sieve.info.gz" "ses.info.gz" "semantic.info.gz" "sc.info.gz" "sasl.info.gz" "remember.info.gz" "reftex.info.gz" "rcirc.info.gz" "pgg.info.gz" "pcl-cvs.info.gz" "org.info.gz" "octave-mode.info.gz" "nxml-mode.info.gz" "newsticker.info.gz" "mh-e.info.gz" "message.info.gz" "mairix-el.info.gz" "info.gz" "ido.info.gz" "idlwave.info.gz" "htmlfontify.info.gz" "gnus.info.gz" "forms.info.gz" "flymake.info.gz" "eww.info.gz" "eudc.info.gz" "eshell.info.gz" "ert.info.gz" "erc.info.gz" "epa.info.gz" "emacs.info.gz" "emacs-mime.info.gz" "emacs-gnutls.info.gz" "elisp.info.gz" "eintr.info.gz" "eieio.info.gz" "efaq.info.gz" "edt.info.gz" "ediff.info.gz" "ede.info.gz" "ebrowse.info.gz" "dired-x.info.gz" "dbus.info.gz" "cl.info.gz" "ccmode.info.gz" "calc.info.gz" "bovine.info.gz" "autotype.info.gz" "auth.info.gz" "gccint.info.gz" "gccinstall.info.gz" "gccgo.info.gz" "gcc.info.gz" "grub2.info.gz" "grub2-dev.info.gz" "mtools.info.gz" "libquadmath.info.gz" "which.info.gz" "coreutils.info.gz" "libc.info.gz" "libc.info-9.gz" "libc.info-8.gz" "libc.info-7.gz" "libc.info-6.gz" "libc.info-5.gz" "libc.info-4.gz" "libc.info-3.gz" "libc.info-2.gz" "libc.info-17.gz" "libc.info-16.gz" "libc.info-15.gz" "libc.info-14.gz" "libc.info-13.gz" "libc.info-12.gz" "libc.info-11.gz" "libc.info-10.gz" "libc.info-1.gz" "wget.info.gz" "libgomp.info.gz" "cppinternals.info.gz" "cpp.info.gz" "nettle.info.gz" "time.info.gz" "tar.info.gz" "tar.info-2.gz" "tar.info-1.gz" "source-highlight.info.gz" "source-highlight-lib.info.gz" "sed.info.gz" "rluserman.info.gz" "r5rs.info.gz" "r5rs-2.2.info.gz" "pinfo.info.gz" "pinentry.info.gz" "parted.info.gz" "make.info.gz" "make.info-2.gz" "make.info-1.gz" "liblouis.info.gz" "libcdio.info.gz" "ld.info.gz" "jwhois.info.gz" "history.info.gz" "gzip.info.gz" "guile.info.gz" "guile.info-9.gz" "guile.info-8.gz" "guile.info-7.gz" "guile.info-6.gz" "guile.info-5.gz" "guile.info-4.gz" "guile.info-3.gz" "guile.info-2.gz" "guile.info-10.gz" "guile.info-1.gz" "guile-2.2.info.gz" "guile-2.2.info-9.gz" "guile-2.2.info-8.gz" "guile-2.2.info-7.gz" "guile-2.2.info-6.gz" "guile-2.2.info-5.gz" "guile-2.2.info-4.gz" "guile-2.2.info-3.gz" "guile-2.2.info-2.gz" "guile-2.2.info-10.gz" "guile-2.2.info-1.gz" "grep.info.gz" "gprof.info.gz" "gnupg.info.gz" "gnupg.info-2.gz" "gnupg.info-1.gz" "gettext.info.gz" "gawkworkflow.info.gz" "gawkinet.info.gz" "gawk.info.gz" "find.info.gz" "find.info-2.gz" "find.info-1.gz" "find-maint.info.gz" "diffutils.info.gz" "dc.info.gz" "cpio.info.gz" "binutils.info.gz" "bfd.info.gz" "bc.info.gz" "bash.info.gz" "as.info.gz" "accounting.info.gz" "../" "./")
 
- ("/home/tom/Notes/projects/writing/" (24783 61585 0 0) "scrapbook.org" "notes.org" "The Fantasy Fiction Formula - Notes.txt" "The Fantasy Fiction Formula - Notes.org" "yiff/" "dark-plague-story.md" "revelation/" "learning.org" "essay-guide.org" "characters/" "motivation-list.org" ".auctex-auto/" "markdown.md" "../" "./")
-
  ("/home/tom/Notes/projects/" (24244 13372 0 0) "writing/" "game/" "../" "./")
-
- ("/home/tom/.emacs.d/" (24795 3504 600893 970000) "ido.last" "bookmarks" "init.el" "snippets/" ".git/" "README.md" "lisp/" "ac-comphist.dat" "thumbs/" "eshell/" "elpa/" "auto-save-list/" "../" "./")
-
- ("/home/tom/Documents/" (24795 1119 563187 487000) "ardath.txt" "poem.odt" "ChatExport_2021-06-16.tar.gz" "Banque Nationale | Services bancaires | Bilan.pdf" "join gate circle height hood accident bachelor reform velvet fat banana reveal" "MuseScore3/" "trigonometry.lisp" "identity/" "impots/" "scripts/" "Books/" "job/" "porn/" "audiobooks/" "export.tar.gz" "poem.pdf" "misc/" "html.tar.gz" "../" "./")
-
- ("/home/tom/" (24794 65042 557454 728000) ".bash_history" ".swp" ".lesshst" "questions-about-html" ".shared-ringdb/" "Monero/" ".bitmonero/" "poem.pdf" "poem.aux" "poem.log" ".texlive2020/" "poem.tex" "Todo-everyday.org" "poem" "Git/" "Lisp/" ".emacs" ".bashrc" ".slime-history.eld" ".slime/" ".emacs.d/" ".lmmsrc.xml" ".rpmmacros" "Audiobooks/" ".vscode-oss/" "Godot/" ".gitconfig" ".dotnet/" ".prboom-plus/" ".pki/" "Doom/" "Notes/" ".ssh/" ".bash_profile" ".gnupg/" ".icons/" ".wget-hsts" ".var/" ".esd_auth" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".mozilla/" ".bash_logout" "../" "./")
 
  ("/home/" (24787 53385 81848 528000) "tom/" "tom3/" "../" "./")
 
